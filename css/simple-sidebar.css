@@ -18,6 +18,13 @@
     transition: all 0.5s ease;
 }
 
+#Menu-Button {
+    z-index: 1500;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
 #wrapper.toggled {
     padding-left: 250px;
 }
@@ -30,7 +37,6 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #fff;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -45,24 +51,26 @@
     width: 100%;
     position: absolute;
     padding: 15px;
+    padding-top: 100px;
 }
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -250px;
+    padding-top: 100px;
 }
 
 /* Sidebar Styles */
 
 .sidebar-nav {
     position: absolute;
-    top: 30px;
+    top: 70px;
     width: 250px;
     margin: 0;
     padding: 40px;
     list-style: none;
     font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .sidebar-nav li {
@@ -126,11 +134,14 @@
 
     #page-content-wrapper {
         padding: 20px;
+        width: 700px;
+        padding-top: 100px;
         position: relative;
     }
 
     #wrapper.toggled #page-content-wrapper {
         position: relative;
+        padding-top: 100px;
         margin-right: 0;
     }
 }
