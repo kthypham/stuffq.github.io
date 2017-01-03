@@ -86,7 +86,7 @@
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #aaa;
     background: rgba(255,255,255,0.2);
 }
 
@@ -106,13 +106,17 @@
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #aaa;
     background: none;
 }
 
 .sidebar-nav > .sidebar-sub {
     font-size: 14px;
     line-height: 30px;
+}
+
+.sidebar-nav span {
+  color: #aaa;
 }
 
 @media(min-width:768px) {
@@ -134,7 +138,7 @@
 
     #page-content-wrapper {
         padding: 20px;
-        width: 700px;
+        width: 80%;
         padding-top: 100px;
         position: relative;
     }
