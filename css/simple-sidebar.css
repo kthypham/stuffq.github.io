@@ -95,6 +95,17 @@
     text-decoration: none;
 }
 
+.sidebar-brand img {
+    width: 25px;
+    height: auto;
+    display: block;
+    margin-left: 35px;
+}
+
+.sidebar-brand img:hover {
+    opacity: 0.5;
+}
+
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 28px;
