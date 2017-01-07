@@ -73,6 +73,11 @@
 .indent {
   margin-left:20px;
 }
+
+.tlt {
+  font-size: : 30px;
+}
+
 /* Sidebar Styles */
 
 .sidebar-nav {
