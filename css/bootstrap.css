@@ -200,7 +200,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    color: #eee;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1286,6 +1286,9 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }
 p {
   margin: 0 0 10px;
@@ -3001,8 +3004,9 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 .btn {
-  padding: 10px 16px;
-  margin-bottom: 0;
+  padding: 10px 10px;
+  position: fixed;
+  margin-left: 8px;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -3418,8 +3422,6 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
-  text-decoration: underline;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
