@@ -1103,7 +1103,6 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -2114,6 +2113,7 @@ pre code {
     width: 66.66666667%;
   }
   .col-lg-7 {
+    min-width: 750px;
     width: 58.33333333%;
   }
   .col-lg-6 {

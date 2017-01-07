@@ -60,6 +60,19 @@
     padding-top: 100px;
 }
 
+.col-lg-7 a {
+  border-bottom: 2px #eee solid;
+  color: #000;
+}
+
+.col-lg-7 a:hover {
+  border-bottom: 2px #EDE574 solid;
+  color: #000;
+}
+
+.indent {
+  margin-left:20px;
+}
 /* Sidebar Styles */
 
 .sidebar-nav {
@@ -127,7 +140,7 @@
 }
 
 .sidebar-nav span {
-  color: #aaa;
+  color: #EDE574;
 }
 
 @media(min-width:768px) {

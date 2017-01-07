@@ -9,13 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <!-- Webfonts -->
+    <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Kathy Pham</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
+
+		<!-- Unslider Core CSS -->
+		<link rel="stylesheet" href="css/unslider-dots.css">
+		<link rel="stylesheet" href="css/unslider.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,43 +35,96 @@
 </head>
 
 <body>
-
+		<div id="Menu-Button">
+	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><b>Menu</b></a>
+</div>
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Kathy Pham
+                    <a href="index.html#">
+                        <img src="images/kp.svg" alt="KP" />
                     </a>
                 </li>
                 <li>
-                    <a href="#">Design</a>
+                    <a href="index.html#">Design</a>
                 </li>
                 <li>
-                    <a href="#">Writing</a>
+                    <a href="writing.html#"><span>Writing</span></a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+								<br>
+								<li class="sidebar-sub">
+                    <a href="about.html#">About</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
+                <li class="sidebar-sub">
+                    <a href="contact.html#">Contact</a>
                 </li>
-            </ul>
+						</ul>
         </div>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Kathy Pham writes fiction and nonfiction</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                    </div>
+  <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+              <h1>Kathy Pham writes fiction + nonfiction</h1>
+          </div>
+                <div class="col-lg-7">
+
+<h4>Published Fiction</h4>
+
+    <b>NōD Magazine 19</b> + <i>L'incendie</i>
+<br>
+        <div class="indent">Winter 2016: print only</div>
+<br><br>
+
+<h4>Selected Nonfiction</h4>
+
+<a href="http://www.macleans.ca/education/university/university-of-calgary-411-where-to-find-the-best-cheap-lunch-and-more/">
+    <b>Maclean's Magazine</b> + "University of Calgary 411: Where to find the best cheap lunch and more"</a>
+<br>
+        <div class="indent">Winter 2017</div>
+
+<br>
+
+<a href="http://www.nerdophiles.com/2015/01/23/heroes-of-the-storm-brings-teamwork-back-to-moba/">
+    <b>Nerdophiles Pop Culture Blog</b> + "Heroes of the Storm Brings Teamwork Back to MOBA"</a>
+<br>
+        <div class="indent">January 2015</div>
+
+<br>
+
+<a href="https://nerdophiles.wordpress.com/2014/08/22/the-future-of-bioware-and-dragon-age-inquisition/">
+    <b>Nerdophiles Pop Culture Blog</b> + "The Future of Bioware and Dragon Age Inquisition"</a>
+<br>
+        <div class="indent">January 2015</div>
+
+<br>
+
+<a href="http://www.nerdophiles.com/2014/09/01/pax-prime-2014-day-1-recap/">
+    <b>Nerdophiles Pop Culture Blog</b> + "PAX Prime 2014: Day 1 Recape"</a>
+<br>
+        <div class="indent">August 2014</div>
+
+
+<br><br>
+<h4>Editorships</h4>
+
+    <b>NōD Magazine 20: Rebirth</b> + <i>Senior Executive Design Editor</i>
+<br>
+          <div class="indent">Fall 2017</div>
+<br>
+
+    <b>NōD Magazine 19</b> + <i>Executive Design Editor</i>
+<br>
+        <div class="indent">Winter 2016</div>
+
+</div>
+
+
                 </div>
             </div>
         </div>
@@ -86,6 +147,14 @@
     });
     </script>
 
+		<!-- Slider Script -->
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="js/unslider.js"></script>
+			<script>
+		jQuery(document).ready(function($) {
+			$('.nodmag').unslider();
+		});
+	</script>
 </body>
 
 </html>
