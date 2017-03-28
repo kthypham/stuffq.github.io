@@ -89,23 +89,28 @@
     list-style: none;
     font-size: 22px;
     font-family: 'Harmattan', sans-serif;
+
 }
 
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    width: 40px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: #000;
+    transition: all 0.5s ease;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #aaa;
     background: rgba(255,255,255,0.2);
+    transition: all 0.5s ease;
+    padding-left: 10px;
 }
 
 .sidebar-nav li a:active,
@@ -118,14 +123,19 @@
     height: auto;
     display: block;
     margin-left: 35px;
+    transition: all 0.5s ease;
+    padding-left: 0px;
 }
 
 .sidebar-brand img:hover {
     opacity: 0.5;
+    transition: all 0.5s ease;
+    padding-left: 0px;
 }
 
 .sidebar-nav > .sidebar-brand {
     height: 65px;
+    width: 40px;
     font-size: 28px;
     line-height: 60px;
 }
