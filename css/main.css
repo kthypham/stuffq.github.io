@@ -2040,8 +2040,8 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.05);
+		border: solid 1px rgba(255, 255, 255, 0.35);
+		background: rgba(223, 220, 217, 0.35);
 		margin: 0 0 2em 0;
 	}
 
@@ -2311,7 +2311,7 @@
 		}
 
 	label {
-		color: #ffffff;
+		color: #261c1c;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2329,10 +2329,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.05);
+		background: rgba(223, 220, 217, 0.35);
 		border-radius: 0.25em;
 		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		border: solid 1px rgba(255, 255, 255, 0.65);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3257,11 +3257,11 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #DFDCD9;
+			background-color: #F5F2EE;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #F5F2EE;
 		}
 
 		.wrapper.fullscreen {
@@ -3511,7 +3511,7 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(38, 28, 28, 0.75);
 	}
 
 	#header + #wrapper + #footer > .inner {
