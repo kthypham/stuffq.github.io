@@ -2,11 +2,12 @@ ul.thumbs {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    width:100%;
 }
 
 ul.thumbs li {
     display: inline-block;
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     padding: 0;
     float: left;
@@ -34,7 +35,7 @@ ul.thumbs li a.thumbnail h4 {
     left: 0;
     padding: 7px 10px;
     text-transform: uppercase;
-    background-color: #efefef;
+    background-color: #efefef 0.3;
     color: #6b6b6b;
     font-size: 14px;
     margin: 0;
