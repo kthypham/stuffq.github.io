@@ -39,7 +39,7 @@
 							</ul>
 						</div>
 					</section>
-					<section id="about" class="wrapper style2 spotlights">
+					<section id="about" class="wrapper style2 fade-up">
 						<section>
 
 
@@ -97,13 +97,19 @@
 									<center><img class="face" src="images/kpslc.png" alt="KP">
 										<br>
 										<ul class="actions">
-											<li><a href="#" class="button">CV</a></li>
+											<li><a href="#" class="button">CV/RESUME</a></li>
 										</ul></center>
 								</section>
 								<section>
-									<h3>I didn't know what I wanted to do, <br>
+									<h3>I didn't know what I wanted to do,
 										so I tried to do it all.</h3>
-									<p>Body.</p>
+									<ul>
+									<li>I like working behind the scenes, connecting dots, making meaning, asking why.</li>
+									<li>I learned graphic and web design to be a cool kid on the internet.</li>
+									<li>Celebrity gossip is gospel and I won't hear a word against it.</li>
+									<li>The Oxford comma is overrated.</li>
+									<li>I study English and also everything else at the University of Calgary.</li>
+									<li>My favourite movies according to script, cinematography, and direction: <i>An Education</i>, <i>The Neon Demon</i>, <i>In The Mood For Love.</i></li>
 								</section>
 							</div>
 						</div>
@@ -111,8 +117,9 @@
 
 					<section id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
+							<div id="map"></div>
 							<h2>Say hello.</h2>
-							<p>Let's chat about projects. Alternatively: robots, video games, science fiction or cats.</p>
+							<p>Let's chat. I'm reasonably knowledgable on robots (fictional), literary theory, The Atlantic's last article, and cats.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -136,9 +143,8 @@
 								<section>
 									<ul class="contact">
 										<li>
-											<h3>Homebase</h3>
-											<span>Calgary, Alberta<br />
-											Canada</span>
+											<h3>Home base</h3>
+											<span>Calgary, Alberta, Canada</span>
 										</li>
 										<li>
 											<h3>Email</h3>
@@ -177,6 +183,32 @@
 			<script src="js/portfolio.jquery.min.js"></script>
 			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
 			<script src="js/main.js"></script>
+
+			<script async defer
+			  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK0BJcJRFrXm_hj-Z2V0b17alWhs6n1YQ&callback=initMap">
+			</script>
+
+			<script>
+			function initMap() {
+			        var me = {lat: 51.046502, lng: -114.079200};
+			        var map = new google.maps.Map(document.getElementById('map'), {
+			          zoom: 14,
+			          center: me,
+								disableDefaultUI: true,
+								scrollwheel: false,
+								navigationControl: false,
+								mapTypeControl: false,
+								scaleControl: false,
+								styles: [{"elementType":"geometry","stylers":[{"color":"#f5f5f5"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#f5f5f5"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#ffffff"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#dadada"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},{"featureType":"transit.station","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#c9c9c9"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]}]
+			        });
+
+			        var marker = new google.maps.Marker({
+			          position: me,
+								icon: 'images/marker2.png',
+			          map: map
+			        });
+			      }
+			</script>
 
 			<script>
 					$(document).ready(function() {
