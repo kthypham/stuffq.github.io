@@ -33,7 +33,7 @@
 							<h1>Hello, I'm Kathy Pham.</h1>
 							<p>I'm multipurpose, like bobby pins and vodka.
 						<br>
-								Mainly, I write: copy, strategy, creatively. I also edit, design, and research.</p>
+								I write: copy, strategy, creatively. I also edit, design, and research.</p>
 							<ul class="actions">
 								<li><a href="#works" class="button scrolly">Let's get to know each other</a></li>
 							</ul>
@@ -45,45 +45,30 @@
 
 							<ul class="thumbs">
 			            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/pic03.jpg')">
-			                <h4>Art Direction</h4><span class="description">NoD Magazine</span></a>
+			                <div class="description">
+												NoD Magazine
+												<br><span>Art Direction</span>
+											</div></a>
 			            </li>
 									<li><a href="#thumb2" class="thumbnail" style="background-image: url('images/pic03.jpg')">
-			                <h4>Copywriting</h4><span class="description">Examples</span></a>
+			                <div class="description">
+												PowerOFF
+												<br><span>Integrated Campaign</span>
+											</div></a>
 			            </li>
 									<li><a href="#thumb3" class="thumbnail" style="background-image: url('images/pic03.jpg')">
-			                <h4>Integrated Campaign</h4><span class="description">Office of Sustainability</span></a>
+			                <div class="description">
+												Institutional <br> Sustainability <br> Report
+												<br><span>Copywriting</span>
+											</div></a>
 			            </li>
 									<li><a href="#thumb4" class="thumbnail" style="background-image: url('images/pic03.jpg')">
-			                <h4>Fiction</h4><span class="description">Published work and editorships</span></a>
+			                <div class="description">
+												Fiction
+											<br><span>Published work and editorships</span></div></a>
 			            </li>
 								</ul>
 
-								<div class="portfolio-content">
-									<div id="thumb1">
-			                <div class="media"><img src="images/media.jpg"/></div>
-			                <h1>SEO</h1>
-			                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-			                <a href="#" class="btn btn-primary">Learn More</a>
-			            </div>
-									<div id="thumb2">
-			                <div class="media"><img src="images/media.jpg"/></div>
-			                <h1>SEO</h1>
-			                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-			                <a href="#" class="btn btn-primary">Learn More</a>
-			            </div>
-									<div id="thumb3">
-											<div class="media"><img src="images/media.jpg"/></div>
-											<h1>SEO</h1>
-											<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-											<a href="#" class="btn btn-primary">Learn More</a>
-									</div>
-									<div id="thumb4">
-											<div class="media"><img src="images/media.jpg"/></div>
-											<h1>SEO</h1>
-											<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-											<a href="#" class="btn btn-primary">Learn More</a>
-									</div>
-							</div>
 
 						</section>
 
@@ -91,7 +76,7 @@
 
 					<section id="works" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>I am a writer, student, cat lover, nerd.</h2>
+							<h2>I am analytical, cat loving, curious, hungry.</h2>
 							<div class="features">
 								<section>
 									<center><img class="face" src="images/kpslc.png" alt="KP">
@@ -104,11 +89,11 @@
 									<h3>I didn't know what I wanted to do,
 										so I tried to do it all.</h3>
 									<ul>
-									<li>I like working behind the scenes, connecting dots, making meaning, asking why.</li>
-									<li>I learned graphic and web design to be a cool kid on the internet.</li>
-									<li>Celebrity gossip is gospel and I won't hear a word against it.</li>
-									<li>The Oxford comma is overrated.</li>
 									<li>I study English and also everything else at the University of Calgary.</li>
+									<li>I like working behind the scenes, connecting dots, making meaning, asking why.</li>
+									<li>I learned graphic and web design to be cool on the internet.</li>
+									<li>Celebrity gossip is gospel and I won't hear a word against it.</li>
+									<li>I think the Oxford comma is overrated.</li>
 									<li>My favourite movies according to script, cinematography, and direction: <i>An Education</i>, <i>The Neon Demon</i>, <i>In The Mood For Love.</i></li>
 								</section>
 							</div>
@@ -122,7 +107,7 @@
 							<p>Let's chat. I'm reasonably knowledgable on robots (fictional), literary theory, The Atlantic's last article, and cats.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="index.php">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
@@ -148,7 +133,7 @@
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">kathypham@mail.com</a>
+											<a href="#">mail@kathypham.com</a>
 										</li>
 										<li>
 											<h3>Social</h3>
@@ -187,6 +172,25 @@
 			<script async defer
 			  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK0BJcJRFrXm_hj-Z2V0b17alWhs6n1YQ&callback=initMap">
 			</script>
+
+			<?php
+			    $name = $_POST['name'];
+			    $email = $_POST['email'];
+			    $message = $_POST['message'];
+			    $from = 'From: Kathy Pham';
+			    $to = 'mail@kathypham.com';
+			    $subject = 'You have mail!;
+
+			    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+					if ($_POST['submit']) {
+    if (mail ($to, $subject, $body, $from)) {
+        echo '<p>Your message has been sent!</p>';
+    } else {
+        echo '<p>Something went wrong, go back and try again!</p>';
+    }
+
+			?>
 
 			<script>
 			function initMap() {

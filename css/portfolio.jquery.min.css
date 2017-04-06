@@ -7,7 +7,7 @@ ul.thumbs {
 
 ul.thumbs li {
     display: inline-block;
-    height: 250px;
+    height: 300px;
     overflow: hidden;
     padding: 0;
     float: left;
@@ -43,20 +43,28 @@ ul.thumbs li a.thumbnail h4 {
 
 ul.thumbs li a.thumbnail .description {
     position: relative;
-    height: 0;
+    height: 300px;
     bottom: 0;
     width: 100%;
     opacity: 0;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
     color: #333;
-    background-color: rgba(255, 255, 255, .7);
-    font-size: 18px;
-    padding: 18px 12px;
-    line-height: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 30px;
+    padding-left: 20px;
+    line-height: 31px;
+    font-weight: bold;
     box-sizing: inherit;
-    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+ul.thumbs li a.thumbnail .description span {
+  font-size: 13px;
+  margin-left: 14px;
 }
 
 ul.thumbs li a.thumbnail .active-arrow {
@@ -89,7 +97,7 @@ ul.thumbs li a.thumbnail .active-arrow {
 }
 
 ul.thumbs li a.thumbnail:hover .description {
-    height: 50px;
+    height: 300px;
     opacity: 1;
 }
 
@@ -99,7 +107,8 @@ ul.thumbs li.content {
     margin-bottom: 40px;
     background: 0 0;
     float: left;
-    height: 250px;
+    height: 450px;
+    overflow-y: scroll;
     position: relative;
     padding: 45px 0;
 }
