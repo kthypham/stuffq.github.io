@@ -107,7 +107,7 @@
 							<p>Let's chat. I'm reasonably knowledgable on robots (fictional), literary theory, The Atlantic's last article, and cats.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="index.php">
+									<form method="post" action="https://formspree.io/mail@kathypham.com">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
@@ -172,25 +172,6 @@
 			<script async defer
 			  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK0BJcJRFrXm_hj-Z2V0b17alWhs6n1YQ&callback=initMap">
 			</script>
-
-			<?php
-			    $name = $_POST['name'];
-			    $email = $_POST['email'];
-			    $message = $_POST['message'];
-			    $from = 'From: Kathy Pham';
-			    $to = 'mail@kathypham.com';
-			    $subject = 'You have mail!;
-
-			    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-					if ($_POST['submit']) {
-    if (mail ($to, $subject, $body, $from)) {
-        echo '<p>Your message has been sent!</p>';
-    } else {
-        echo '<p>Something went wrong, go back and try again!</p>';
-    }
-
-			?>
 
 			<script>
 			function initMap() {
