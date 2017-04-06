@@ -39,9 +39,10 @@
 							</ul>
 						</div>
 					</section>
+
+
 					<section id="about" class="wrapper style2 fade-up">
 						<section>
-
 
 							<ul class="thumbs">
 			            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/pic03.jpg')">
@@ -56,6 +57,8 @@
 												<br><span>Integrated Campaign</span>
 											</div></a>
 			            </li>
+
+
 									<li><a href="#thumb3" class="thumbnail" style="background-image: url('images/pic03.jpg')">
 			                <div class="description">
 												Institutional <br> Sustainability <br> Report
@@ -76,10 +79,12 @@
 
 					<section id="works" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>I am analytical, cat loving, curious, hungry.</h2>
 							<div class="features">
 								<section>
-									<center><img class="face" src="images/kpslc.png" alt="KP">
+									<center>
+										<h2>I am <span class="element"></span></h2>
+										<br>
+										<img class="face" src="images/kpslc.png" alt="KP">
 										<br>
 										<ul class="actions">
 											<li><a href="#" class="button">CV/RESUME</a></li>
@@ -100,9 +105,10 @@
 						</div>
 					</section>
 
-					<section id="contact" class="wrapper style1 fade-up">
+<div id="map"></div>
+
+		<section id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
-							<div id="map"></div>
 							<h2>Say hello.</h2>
 							<p>Let's chat. I'm reasonably knowledgable on robots (fictional), literary theory, The Atlantic's last article, and cats.</p>
 							<div class="split style1">
@@ -203,6 +209,21 @@
 							});
 					});
 			</script>
+
+			<script src="js/typed.min.js"></script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function(){
+					Typed.new(".element", {
+						strings: ["analytical.", "a cat lover.", "curious.", "a film buff.", "a writer.", "a gamer.", "thoughtful.", "introverted."],
+						typeSpeed: 50,
+						startDelay: 2000,
+						backSpeed: 40,
+						shuffle: 1,
+						loop: 1000,
+					});
+				});
+			</script>
+
 
 	</body>
 </html>
