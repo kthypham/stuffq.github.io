@@ -206,5 +206,32 @@
 					});
 
 	});
+	$(document).ready(function() {
+
+	$('.wrapper').css('display', 'none');
+
+	$('.wrapper').fadeIn(1000);
+
+
+
+	$('.link').click(function(event) {
+
+	event.preventDefault();
+
+	newLocation = this.href;
+
+	$('.wrapper').fadeOut(1000, newpage);
+
+	});
+
+
+
+	function newpage() {
+
+	window.location = newLocation;
+
+	}
+
+	});
 
 })(jQuery);
