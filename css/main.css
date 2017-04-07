@@ -3264,7 +3264,7 @@
 		}
 
 		.wrapper.style1 {
-			background: #CED9D5;
+			background: #DFDCD9;
 		}
 
 		.wrapper.style1-alt {
@@ -3280,11 +3280,11 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #DFDCD9;
+			background-color: ##EEE2DD;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #DFDCD9;
+			background-color: ##EEE2DD;
 		}
 
 		.wrapper.fullscreen {
@@ -3391,7 +3391,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #DFDCD9;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3545,7 +3545,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: rgb(53,109,105);
+		background: rgb(122,31,61);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3782,10 +3782,10 @@
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #4D7E7A, #F5F2EE);
-				background-image: -webkit-linear-gradient(to right, #4D7E7A, #F5F2EE);
-				background-image: -ms-linear-gradient(to right, #4D7E7A, #F5F2EE);
-				background-image: linear-gradient(to right, #4D7E7A, #F5F2EE);
+				background-image: -moz-linear-gradient(to right, #4D7E7A, #963453);
+				background-image: -webkit-linear-gradient(to right, #4D7E7A, #963453);
+				background-image: -ms-linear-gradient(to right, #4D7E7A, #963453);
+				background-image: linear-gradient(to right, #4D7E7A, #963453);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
