@@ -1665,15 +1665,14 @@
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		color: inherit;
 		text-decoration: none;
+		border-bottom: 3px solid #eee;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #ffffff;
+			border-bottom-color: #356D69;
 		}
 
 	strong, b {
-		color: #ffffff;
 		font-weight: bold;
 	}
 
@@ -1838,6 +1837,9 @@
 		text-align: right;
 	}
 
+	.indent {
+		margin-left: 50px;
+	}
 /* Box */
 
 	.box {
@@ -3545,7 +3547,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: rgb(53,109,105);
+		background: rgb(122, 31, 61);
 		cursor: default;
 		height: 100vh;
 		left: 0;
