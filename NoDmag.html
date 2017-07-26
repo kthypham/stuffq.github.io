@@ -6,7 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/sub.css" />
+							<link rel="stylesheet" href="css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+		<!-- Unslider Core CSS -->
+		<link rel="stylesheet" href="css/unslider-dots.css">
+		<link rel="stylesheet" href="css/unslider.css">
+
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
@@ -26,32 +32,42 @@
 		</section>
 
 			<div id="wrapper">
+					<section id="works" class="wrapper style2 spotlights fade-up">
+						<div class="inner">
+								<div class="features">
+							<section>
+								<img class="side" src="images/21.png"></img>
 
-
-					<section id="works" class="wrapper style2 spotlights fullscreen fade-up">
-						<section>
-
-							<div class="image">
-							<img class="image" src="images/nod1s.png"></img>
+						<div class="default-slider">
+								<ul>
+									<li><img class="side" src="images/nod2s.png" alt="NOD" /></li>
+									<li><img class="side" src="images/21-2.png" alt="NOD" /></li>
+									<li><img class="side" src="images/nod3s.png" alt="NOD" /></li>
+									<li><img class="side" src="images/21-1.png" alt="NOD" /></li>
+								</ul>
 							</div>
 
-							<div class="content"><div class="inner"><h2>NōD Magazine</h2>
+						</section>
+						<section>
 
-							<h5>Art Director/Editor</h5>
+							<h2>NōD Magazine</h2>
 
-							<p>NōD Magazine has history on the university campus, est. 2006 by a group of wayward undergrads. In 2015 it was disbanded when funding ran out. With four others I helped revive the publication in 2016. In doing so I also modernized the publication and its marketing materials, contributing to a successful Kickstarter campaign and grant proposal that will help keep the publication funded for at least five more years.
+							<h5>Art Director and Editor</h5>
+
+							<p>NōD Magazine is the University of Calgary's sole literary publication, est. 2005. With four other editors I helped revive the publication in 2015. In doing so I also modernized the magazine's layout and its marketing materials. I have designed and typeset issues 19, 20 and 21, along with posters and web materials for each. I also contributed to a successful Kickstarter campaign and grant proposal that will help keep the publication funded for at least five more years.
 							</p>
+							<p><h6>InDesign CS6 and Photoshop CS6</h6></p>
 
-						</div></div></div>
+						</div></div></div></section>
+						</section>
 
-
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Kathy Pham. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+						<footer id="footer" class="wrapper style1-alt">
+							<div class="inner">
+								<ul class="menu">
+									<li>&copy; Kathy Pham. All rights reserved.</li>
+								</ul>
+							</div>
+						</footer>
 
 			<script src="js/jquery.min.js"></script>
 			<script src="js/jquery.scrollex.min.js"></script>
@@ -61,6 +77,16 @@
 			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
 			<script src="js/main.js"></script>
 
-
+			<!-- Slider Script -->
+			<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+			<script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+			<script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+			<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="js/unslider.js"></script>
+			<script>
+					jQuery(document).ready(function($) {
+						$('.default-slider').unslider();
+					});
+				</script>
 	</body>
 </html>
