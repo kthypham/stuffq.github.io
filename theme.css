@@ -6784,6 +6784,10 @@ center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card a[h
   display: var(--display_inventory-buttonTreasure, inline-block);
 }
 
+.card-collapse.in {
+    display: block !important;
+}
+
 #pet_list {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
