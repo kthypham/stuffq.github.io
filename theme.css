@@ -1065,8 +1065,7 @@ input[type='submit'] br {
 }
 
 .card-body {
-  padding: 1rem;
-  min-height: 5rem;
+  padding: 0.7rem;
 }
 
 .card-title:only-child {
@@ -6725,14 +6724,6 @@ center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card for
   background-color: var(--black) !important;
   color: var(--white) !important;
 }
-
-.collapse.in {
-    display: block !important;
-}
-
-.collapse.show {
-    display: block !important;
-  }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card form[action^='?act=sticker'] input[type='submit']:hover, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card form[action^='?act=sticker'] input[type='submit']:active {
   border-color: var(--black) !important;
