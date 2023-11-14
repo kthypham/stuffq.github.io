@@ -6745,23 +6745,23 @@ center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card for
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse#collapseFood, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse none {
-  display: var(--display_inventory-collapseFood, none);
+  display: var(--display_inventory-collapseFood, block);
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse#collapseMinion, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse none {
-  display: var(--display_inventory-collapseMinion, none);
+  display: var(--display_inventory-collapseMinion, block);
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse#collapseToy, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse none {
-  display: var(--display_inventory-collapseToy, none);
+  display: var(--display_inventory-collapseToy, block);
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse#collapseBook, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse none {
-  display: var(--display_inventory-collapseBook, none);
+  display: var(--display_inventory-collapseBook, block);
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse#collapseTreasure, center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse none {
-  display: var(--display_inventory-collapseTreasure, none);
+  display: var(--display_inventory-collapseTreasure, block);
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse a {
@@ -6769,7 +6769,7 @@ center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .co
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card .collapse br {
-  display: none;
+  display: block;
 }
 
 center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card a[href='#collapseFood'] {
