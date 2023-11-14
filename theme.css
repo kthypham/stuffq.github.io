@@ -6784,7 +6784,7 @@ center b + br + a[href='/inventory.php'] + br + br + .container .col-6 .card a[h
   display: var(--display_inventory-buttonTreasure, inline-block);
 }
 
-.card-collapse.in {
+.collapse.in {
     display: block !important;
 }
 
