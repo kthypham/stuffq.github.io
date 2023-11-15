@@ -9,6 +9,7 @@
   --grey: #7b8f8a;
   --grey-light: #92a68a;
   --white: #fff;
+  --ui: #506266;
 }
 
 /******************************************************************************slate green 364245/
@@ -639,7 +640,7 @@ center + br + .ui.message.small {
   padding: 1rem;
   border: 0 !important;
   border-radius: var(--border-radius, 5px);
-  background-color: #00b4ff !important;
+  background-color: var(--ui) !important;
   color: var(--white);
   margin: 0 !important;
 }
@@ -1340,7 +1341,7 @@ img[src$='icons/user.gif'], img[src$='icons/gold.gif'], img[src$='icons/council.
 }
 
 img[src$='icons/user.gif'] {
-  background-color: #00b4ff;
+  background-color: var(--ui);
 }
 
 img[src$='icons/gold.gif'] {
@@ -4744,7 +4745,7 @@ img[src*='subeta.net/explore/images/centropolis_birdseye'] ~ center table tr td 
 }
 
 .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] {
-  color: #00b4ff;
+  color: var(--ui);
 }
 
 .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'] {
@@ -4786,14 +4787,14 @@ img[src*='subeta.net/explore/images/centropolis_birdseye'] ~ center table tr td 
   cursor: pointer;
   -webkit-transition: border-color 0.3s, background-color 0.3s, color 0.3s;
   transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-  background-color: #00b4ff !important;
+  background-color: var(--ui) !important;
   color: var(--white) !important;
 }
 
 .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'][name='train_normal']:hover, .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'][name='train_normal']:active {
-  border-color: #00b4ff !important;
+  border-color: var(--ui) !important;
   background-color: transparent !important;
-  color: #00b4ff !important;
+  color: var(--ui) !important;
 }
 
 .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'][name='train_normal'] br {
@@ -4822,14 +4823,14 @@ img[src*='subeta.net/explore/images/centropolis_birdseye'] ~ center table tr td 
   cursor: pointer;
   -webkit-transition: border-color 0.3s, background-color 0.3s, color 0.3s;
   transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-  border-color: #00b4ff !important;
+  border-color: var(--ui) !important;
   background-color: transparent !important;
-  color: #00b4ff !important;
+  color: var(--ui) !important;
   margin-bottom: 1rem;
 }
 
 .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'][name='train_auto']:hover, .battle-menu + .row.w-100 + .row.w-100 .training-center-pet div[style*='background-color:#ffd9d9'] input[type='submit'][name='train_auto']:active {
-  background-color: #00b4ff !important;
+  background-color: var(--ui) !important;
   color: var(--white) !important;
 }
 
@@ -5256,7 +5257,7 @@ img[src*='subeta.net/explore/images/centropolis_birdseye'] ~ center table tr td 
 }
 
 #searchResults .ui.grid .row.shop_highlight.blue {
-  background-color: #00b4ff;
+  background-color: var(--ui);
   color: var(--white);
 }
 
