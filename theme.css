@@ -7,12 +7,12 @@
   --black: #1f1f1f;
   --grey-dark: #506266;
   --grey: #7b8f8a;
-  --grey-light: #92a68a;
+  --grey-light: #768488;
   --white: #fff;
   --ui: #506266;
 }
 
-/******************************************************************************slate green 364245/
+/*********************************************************lightishgreen:92a68a *** slategreen:364245/
 :root,
 .column {
   font-size: 15px !important;
