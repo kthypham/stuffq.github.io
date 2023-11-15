@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /******************************************************************************/
 :root {
-  --primary: #04c4bb;
+  --primary: #BCC499;
   --black: #111;
-  --grey-dark: #333;
-  --grey: #ccc;
-  --grey-light: #eee;
+  --grey-dark: #506266;
+  --grey: #7b8f8a;
+  --grey-light: #92a68a;
   --white: #fff;
 }
 
